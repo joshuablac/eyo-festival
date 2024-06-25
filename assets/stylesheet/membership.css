@@ -1,0 +1,444 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  overflow-x: hidden;
+}
+img {
+  width: 120px;
+}
+nav {
+  padding: 10px 20px;
+  position: relative;
+}
+nav a {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+body {
+  text-align: center;
+}
+#check {
+  display: none;
+}
+.checkbtn {
+  font-size: 16px;
+  float: right;
+  font-weight: lighter;
+
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 5px;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+ul {
+  padding-top: 30px;
+  text-align: left;
+  position: absolute;
+  top: 45px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+  right: -250%;
+  height: 27vh;
+  background-color: white;
+  transition: all 0.5s;
+  box-shadow: 0 15px 10px #777;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+#check:checked ~ ul {
+  right: 0;
+}
+.header1 {
+  display: flex;
+  gap: 90px;
+  font-size: 14px;
+}
+
+.secondhead {
+  display: flex;
+  margin-top: 13px;
+  gap: 20px;
+}
+.second {
+  display: flex;
+}
+.button button {
+  font-size: 15px;
+  width: 70px;
+  padding: 2px 4px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+.main1 {
+  width: 360px;
+  height: 60px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(rgba(26, 162, 223), rgba(26, 162, 223, 0.7)),
+    url(../assets/stylesheet/telephone.jpg);
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 10px;
+  line-height: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+button {
+  border: none;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ineyo {
+  padding: 20px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: start;
+  border: 1px solid rgb(1, 167, 91);
+  font-weight: bolder;
+  height: 89.93px;
+  width: 170px;
+  border-radius: 6px;
+}
+.ineyo i {
+  color: rgb(1, 167, 91);
+  font-size: 23px;
+}
+.first {
+  display: flex;
+  gap: 14px;
+}
+.iney {
+  padding: 0 10px;
+}
+.no h1 {
+  width: 60px;
+  height: 60px;
+  padding: 9.09px;
+  border-radius: 3.64px;
+  gap: 9.09px;
+  color: white;
+  background-color: rgb(1, 167, 91);
+  text-align: center;
+  padding-top: 18px;
+  margin-top: 15px;
+}
+.second_two {
+  width: 360px;
+  height: Hug (120px);
+  padding: 10px;
+  border: 0.41px solid rgb(1, 167, 91);
+  gap: 10px;
+}
+.div_one {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.eyo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+  margin-top: 20px;
+  font-size: 14px;
+  gap: 20px;
+}
+.secondfoot {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+}
+footer h2 {
+  color: rgb(1, 167, 91);
+}
+.secondfoot {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.over_view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.icons i {
+  font-size: 16px;
+  font-weight: lighter;
+  border: 1px solid lightgreen;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 5px;
+  background-color: rgb(27, 140, 27);
+  color: white;
+}
+.honor h3 {
+  color: white;
+}
+.secondfoot {
+  gap: 0;
+}
+.box {
+  display: flex;
+  width: 360px;
+  height: 60px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(26, 162, 223);
+  color: white;
+  padding-top: 10px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.div_text {
+  font-size: 12px;
+}
+.get_button button {
+  font-size: 12px;
+  width: 90px;
+  padding: 8px 2px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(23, 78, 132);
+  color: white;
+}
+.first_form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  color: white;
+}
+.second_form {
+  width: 320px;
+  height: 386px;
+  border-radius: 4.51px;
+  background-color: white;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 360px;
+  height: 573px;
+  background-color: #0098dbe5;
+  padding: 50px 20px 30px 20px;
+}
+.first_form h1 {
+  font-size: 35px;
+}
+.h3_two {
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-top: 20px;
+}
+.main1 {
+  line-height: 30px;
+}
+.h_form h3,
+h5 {
+  color: #0098dbe5;
+}
+h3 {
+  font-size: 20px;
+}
+input {
+  border: none;
+  border-bottom: 2px solid grey;
+  width: 300px;
+  word-break: break-all;
+  line-height: 20px;
+  motion-rotation: -0deg;
+}
+.submit button {
+  width: 162.34px;
+  height: 24.26px;
+  padding: 10.33px, 15.39px, 10.33px, 15.39px;
+  border-radius: 18.04px;
+  border: none;
+  background-color: #0098dbe5;
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+    align-items: center;
+    padding: 20px 0;
+  }
+  ul {
+    flex-direction: row;
+    height: 50px;
+    box-shadow: none;
+    background: none;
+    top: -5px;
+
+    transition: none;
+  }
+  nav a {
+    color: black;
+  }
+  .checkbtn {
+    display: none;
+  }
+  .second {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1200px;
+  }
+  .main1 {
+    width: 100%;
+    height: 120px;
+    font-size: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .div_one {
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 24px;
+    gap: 10px;
+  }
+  .first {
+    display: flex;
+  }
+  .second_two {
+    width: 50%;
+    height: 120px;
+    font-size: 24px;
+    line-height: 27px;
+    padding: 20px 6px;
+  }
+  .no h1 {
+    width: 0;
+    height: 0;
+    border: none;
+    background-color: white;
+  }
+  .ineyo {
+    height: 120px;
+    width: 280px;
+    padding-top: 50px;
+  }
+  .iney h3 {
+    font-size: 24px;
+  }
+  .box {
+    width: 70%;
+    height: 100px;
+    margin-top: 30px;
+    gap: 20rem;
+  }
+  .div_text,
+  .div_icon i {
+    font-size: 21px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .form {
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 44rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    background-image: linear-gradient(
+        rgba(26, 162, 223, 0.8),
+        rgba(26, 162, 223, 0.8)
+      ),
+      url(../stylesheet/the\ men\ on\ natives.jpg);
+  }
+  footer {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  footer,
+  .p,
+  h2,
+  .icons {
+    font-size: 18px;
+  }
+  .secondfoot {
+    flex-direction: row;
+    gap: 120px;
+  }
+  .second_form {
+    width: 40%;
+    height: 600px;
+  }
+  form {
+    gap: 60px;
+  }
+  input {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .input_text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

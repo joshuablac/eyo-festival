@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #b7111b;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family:'kanit ',sans-serif;
+    
+}
+h1{
+    color: #fafbf4;
+    font-size: 150px;
+    padding-top: 250px;
+    text-shadow: 7px -8px 5px black;
+}
+nav{
+    position: relative;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+font-family: Arial, Helvetica, sans-serif;
+padding: 20px;
+position: relative;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%,100%);
+}
+img{
+    width: 200px;
+    display: block;
+}
+p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+button{
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px ;
+}
+#error{
+    color: red;
+    font-weight: 200;
+}

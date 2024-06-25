@@ -1,0 +1,628 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 1fr 100px;
+  overflow-x: hidden;
+}
+img {
+  width: 120px;
+}
+nav {
+  padding: 10px 20px;
+  position: relative;
+}
+nav a {
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+body {
+  text-align: center;
+}
+#check {
+  display: none;
+}
+.checkbtn {
+  font-size: 16px;
+  float: right;
+  font-weight: lighter;
+
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 5px;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+ul {
+  padding-top: 30px;
+  text-align: left;
+  position: absolute;
+  top: 45px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-left: 10px;
+  right: -270%;
+  height: 27vh;
+  background-color: white;
+  transition: all 0.5s;
+  box-shadow: 0 15px 10px #777;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+#check:checked ~ ul {
+  right: 0;
+}
+.header1 {
+  display: flex;
+  gap: 90px;
+  font-size: 14px;
+}
+
+.second {
+  display: flex;
+}
+
+.main1 {
+  width: 360px;
+  height: 60px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(26, 162, 223);
+  color: white;
+  padding-top: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.eyo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 25px;
+  margin-top: 20px;
+  font-size: 14px;
+  gap: 20px;
+}
+.icons i {
+  font-size: 16px;
+  font-weight: lighter;
+  border: 1px solid lightgreen;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 5px;
+  background-color: rgb(27, 140, 27);
+  color: white;
+}
+.secondfoot {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: left;
+  gap: 0;
+}
+.rotae {
+  rotate: 180deg;
+}
+footer h2 {
+  color: rgb(1, 167, 91);
+}
+.secondfoot {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.over_view {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+}
+.text_one {
+  width: 355px;
+  text-align: start;
+  height: 210px;
+  background-image: linear-gradient(
+      rgba(23, 23, 23, 0.5),
+      rgba(14, 14, 14, 0.6)
+    ),
+    url(../stylesheet/seocnd\ blakc.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  padding: 10px 0 50px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  line-height: 40px;
+}
+.member_button button {
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: rgb(1, 167, 91);
+  color: white;
+  border: none;
+}
+button {
+  border: none;
+}
+.box {
+  width: 355px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text_two {
+  background-color: rgb(26, 162, 223);
+  line-height: 17px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.text_two p {
+  color: white;
+}
+.memm {
+  margin-top: 30px;
+  gap: 30px;
+  color: rgb(1, 167, 91);
+}
+.mian {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.box_one {
+  width: 270px;
+  height: 250px;
+  border: 1px solid rgb(1, 167, 91);
+  padding: 10px;
+}
+.logo {
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(1, 167, 91);
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: -30px;
+}
+.oxes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inner_text {
+  padding-top: 30px;
+}
+.hug {
+  display: flex;
+  width: 360px;
+  height: 70px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: rgb(26, 162, 223);
+  color: white;
+  padding: 10px 0;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+.thord p {
+  font-size: 12px;
+}
+.core {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  color: white;
+  width: 360px;
+  height: 1400px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(26, 162, 223);
+  margin-top: -1px;
+  padding-top: 50px;
+}
+.core h2 {
+  font-size: 25px;
+}
+.text_two h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: bolder;
+}
+.educa i,
+img {
+  color: black;
+}
+.educa i {
+  font-size: 40px;
+}
+.educa img {
+  width: 70px;
+}
+.execut_ives {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.core {
+  gap: 30px;
+  height: 1100px;
+}
+.tie img {
+  width: 80px;
+}
+.educa img {
+  color: white;
+  width: 70px;
+}
+.educa i {
+  color: white;
+  width: 60px;
+}
+.network img {
+  width: 50px;
+}
+.whole_educa {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.first_educa,
+.second_educa {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.h1 {
+  line-height: 30px;
+}
+.area {
+  color: white;
+}
+.inside_events {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  text-align: justify;
+  padding: 0 16px;
+}
+.im {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  justify-content: center;
+  gap: 10px;
+}
+.icon_im {
+  width: 100px;
+  height: 90px;
+  border: 1px solid rgb(1, 167, 91);
+  padding-top: 14px;
+}
+.first_events {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.icon_imo {
+  width: 100px;
+  height: 90px;
+  border: 1px solid rgb(1, 167, 91);
+  padding-top: 14px;
+}
+.icon_im img {
+  width: 80px;
+}
+.icon_imo img {
+  width: 80px;
+}
+.events {
+  width: 360px;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(26, 162, 223);
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  line-height: 22px;
+  padding-top: 40px;
+  color: white;
+}
+.discuss {
+  color: white;
+  font-size: 17px;
+}
+.area {
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: white;
+}
+.events h2 {
+  font-size: 25px;
+}
+.events img {
+  width: 340px;
+  height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.secondhead {
+  display: flex;
+  margin-top: 13px;
+  gap: 20px;
+}
+
+.second {
+  display: flex;
+}
+.button button {
+  font-size: 15px;
+  width: 70px;
+  padding: 2px 4px;
+  border-radius: 8px;
+  font-size: 13px;
+  cursor: pointer;
+  background-color: rgb(1, 167, 91);
+  color: white;
+}
+@media screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    gap: 160px;
+    align-items: center;
+    padding: 10px 0;
+    padding-left: 60px;
+  }
+  ul {
+    flex-direction: row;
+    height: 50px;
+    box-shadow: none;
+    background: none;
+    top: -5px;
+
+    transition: none;
+  }
+  nav a {
+    color: black;
+  }
+  h1 {
+    line-height: 50px;
+  }
+  .mian {
+    margin-top: 50px;
+  }
+  .whole_educa {
+    display: flex;
+    flex-direction: column;
+  }
+  .first_events {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .core {
+    gap: 50px;
+  }
+  .first_educa,
+  .second_educa {
+    display: flex;
+    flex-direction: row;
+  }
+  .h1 {
+    line-height: 60px;
+  }
+  .checkbtn {
+    display: none;
+  }
+  .second {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1200px;
+  }
+  .text_one {
+    width: 100%;
+    height: 650px;
+    padding-top: 250px;
+    padding-left: 100px;
+    line-height: 60px;
+    background-size: 100%;
+  }
+  .h1 {
+    font-size: 30px;
+  }
+  .box {
+    width: 100%;
+  }
+  .oxes {
+    flex-direction: row;
+    gap: 100px;
+  }
+  main {
+    margin-top: 20%;
+  }
+  .mian {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .text_two {
+    flex-direction: row;
+  }
+  .text_two h2 {
+    width: 30%;
+    padding-top: 20px;
+  }
+  .text_two p {
+    width: 60%;
+    padding: 12px 10px;
+  }
+  h2 {
+    font-size: 28px;
+  }
+  .box_one {
+    width: 300px;
+    height: 250px;
+  }
+  .hug {
+    z-index: 2;
+    width: 70%;
+    height: 100px;
+    margin-top: 100px;
+    gap: 20rem;
+  }
+  .core {
+    width: 100%;
+    z-index: 2;
+    height: 650px;
+    background-image: linear-gradient(
+        rgba(26, 162, 223, 0.6),
+        rgba(26, 162, 223, 0.8)
+      ),
+      url(../stylesheet/the\ men\ on\ natives.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .whole_educa {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+
+    justify-content: center;
+  }
+  .first_educa {
+    display: flex;
+    gap: 120px;
+    padding: 0 10px;
+  }
+  .second_educa {
+    display: flex;
+    gap: 150px;
+    padding: 0 10px;
+  }
+  .im {
+    gap: 50px;
+  }
+  .icon_im {
+    padding-top: 50px;
+    width: 200px;
+    height: 190px;
+    border: 2px solid rgb(1, 167, 91);
+  }
+  .icon_im img {
+    width: 180px;
+  }
+  .execut_ives {
+    gap: 40px;
+    margin-top: 150px;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  .hone {
+    text-align: start;
+    padding-left: 490px;
+  }
+  .icon_imo {
+    width: 200px;
+    height: 190px;
+    border: none;
+  }
+  .icon_imo img {
+    width: 120px;
+  }
+  .events {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(
+        rgba(26, 162, 223, 0.6),
+        rgba(26, 162, 223, 0.8)
+      ),
+      url(../stylesheet/the\ men\ on\ natives.jpg);
+  }
+  .first_events {
+    display: flex;
+    justify-content: center;
+  }
+  .events h2 {
+    font-size: 30px;
+  }
+  .inside_events {
+    width: 50%;
+    line-height: 35px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  footer {
+    display: flex;
+    gap: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 25px;
+  }
+  footer,
+  .p,
+  h2,
+  .icons {
+    font-size: 15px;
+  }
+  .secondfoot {
+    flex-direction: row;
+    gap: 120px;
+  }
+  .second_form {
+    width: 40%;
+    height: 600px;
+  }
+}

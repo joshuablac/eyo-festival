@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.one img{
+    width: 50%;
+    height: 200%;
+}
+.boxes{
+    font-size: 55%;
+
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+button{
+    font-size: 7px;
+    margin-top: 5%;
+    color: white;
+    background-color: blue;
+    padding: 3px 8px;
+}
+.textone{
+    font-size: 5px;
+    text-align: justify;
+}
+.one{
+    
+    gap: 10px;
+    padding: 5px 10px;
+    background-color: rgba(20, 20, 49,0.79);
+    color: white;
+    width: 80%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.two img{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+.two{
+    padding: 20px ;
+    color: black;
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.three img{
+    width: 100%;
+    height: 200px;
+    margin-top: 10px;   
+}
+.three{
+    padding: 20px 20px;
+    color: white;
+    background-color:rgba(20, 20, 49,0.79) ;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px; 
+}
+.four img{
+    width: 100%;
+    height: 170px;
+    margin-top: 10px;   
+} 
+span{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 3px 8px;
+}
+.four{
+    padding: 20px 20px;
+    color: black;
+    background-color: white;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.five img{
+    width: 60%;
+    height: 170px;   
+}  
+
+.five{
+   
+    gap: 10px;
+    padding: 4%;
+    background-color: rgba(20, 20, 49,0.79);
+    color: white;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+.six img{
+    width: 100%;
+    height: 170px;  
+}
+h4{
+    padding: 10px 20px;
+    color: rgb(83, 107, 115);
+}
+.six{
+   
+    padding: 4%;
+    background-color: white;
+    color: black;
+    width: 90%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    padding: 20px 10px;
+}
+@media screen and (min-width: 768px) {
+    h4{
+font-size: 30px;
+    }
+    .two img{
+        width: 100%;
+        height: 300px;
+    }
+    .three img{
+        width: 100%;
+        height: 300px;
+    }
+    .four img{
+        width: 100%;
+        height: 300px;
+    }
+    .five img{
+        width: 100%;
+        height: 300px;
+        margin-top: 5px;
+    }
+    .six img{
+        width: 100%;
+        height: 300px;
+    }
+    .one img{
+        width: 100%;
+        height: 200px;
+    }
+    .textone{
+        font-size: 10px;
+    
+    }
+    .boxes{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+    }
+    .first{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .second{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+}

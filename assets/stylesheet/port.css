@@ -1,0 +1,356 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 900px;
+    background-color: #c2bfbf;
+
+}
+.min{
+    padding: 9px 10px;
+    font-size: 25px;
+    color: black;
+    box-shadow: 0 9px 5px black;
+    border: 3px solid black;
+    border-radius: 26px;
+    background-color: white;
+    margin-top: 10px;
+}
+.but{
+    margin-bottom: -20px;
+}
+.tem{
+    background-color: white;
+    color: white;
+
+}
+.hyper{
+    letter-spacing: -1px;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.expo{
+    color: black;
+    letter-spacing: -2px;
+    font-size: 20px;
+    
+}
+.dot{
+    color:green;
+    font-size: 10px;
+}
+nav{
+    padding: 10px 20px;
+    position: relative;
+    
+}
+nav a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#check{
+    display: none;
+}
+header{
+    border-bottom: 2px dotted #777;
+   text-align: left;
+   padding-left: 10px;
+   padding-bottom: 10px;
+   width: 100%;
+}
+.email a{
+    color: black;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+float: right;
+}
+.firsthead{
+    padding-top: 10px;
+  position: absolute; 
+  top: 40px; 
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+right: -250px;
+  height: 50vh;
+  background-color: white;
+  transition: all .5s;
+  box-shadow: 0 15px 10px #777;
+  
+}
+.allform{
+    
+}
+#check:checked ~ ul{
+right: 0;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: yellow;
+}
+.allform{
+    background-color: white;
+    width: 360px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    width: 350px;
+    height: 300px;  
+    border-bottom: 2px dotted #777; 
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.h2{
+    font-size: 17px;
+    text-align: justify;
+}
+.product{
+    font-size: 10px;
+    text-align: justify;
+}
+.visual{
+    color: black;
+    font-weight: bolder;
+}
+.me {
+    text-align: justify;
+   
+}
+.me button{
+    font-size: 12px;
+    padding: 4px 8px;
+color: white;
+background-color: rgb(128, 5, 128);
+border-radius: 18px;
+}
+.form{
+    display: flex;
+
+   
+}
+.box{
+    font-size: 10px;
+    padding: 4px 9px;
+    color: #777;
+    border-top: 2px dotted #777;
+    border-bottom: 2px dotted #777;
+    border-right: 2px dotted #777;
+   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+footer{
+    margin-top: 10px;
+}
+.alla{
+    margin-top: 20px;
+}
+.ux{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    margin-left: 8px;
+}
+.ul{
+    font-size: 13px;
+    font-weight: bolder;
+}
+.site{
+    text-align: center;
+    font-size: 20px;
+}
+@media screen and (min-width:768px) {
+    .min{
+        font-size: 60px;
+        padding: 10px 15px;
+        letter-spacing: -1px;
+        border-radius: 50px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+    }
+    .all{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        gap: 1px;
+    
+    }
+    .h2{
+        font-size: 40px;
+    }
+    .img img{
+        width: 520px;
+        height: 470px;
+        border-bottom: none;
+    }
+    .text{
+        padding-top: 40px;
+        padding-left: 20px;
+        width: 920px;
+        height: 470px;
+        border-right: 2px dotted #777;
+
+    }
+    .expo{
+        font-size: 40px;
+    }
+    .allform{
+        width: 1300px;
+        margin-top: 30px;
+    }
+
+    header{
+        display: flex;
+        justify-content: center;
+        gap: 350px;
+        align-items: center;
+        padding: 20px 0;
+       color: black;
+       padding-bottom: 8px;
+    }
+    .hyper{
+        font-size: 20px;
+    }
+    .firsthead{
+        display: flex;
+        flex-direction: row;
+       position: absolute; 
+        box-shadow: none;
+        background: none;
+        top: -9px;
+        right: 88%;
+        color: #777;
+        transition: none;
+    }
+
+    nav a{
+        color: black;
+        font-size: medium;
+        font-weight: lighter;
+    }
+    .checkbtn{
+        display: none;
+    }
+    .form{
+        display: flex;
+        margin-top: -20px;
+      
+    }
+    .ul{
+        font-size: 20px;
+    }
+    .product{
+        font-size: 16px;
+    }
+    .ux{
+        font-size: 40px;
+    }
+.box{
+width: 300px;
+height: 100px;
+padding-top: 30px;
+font-size: 17px;
+} 
+footer{
+    text-align: justify;
+    margin-left: 30px;
+}
+footer h2{
+    font-size: 60px;
+}
+.alla{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.phone img{
+    width: 450px;
+height: 500px;
+}
+.ul ol{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.site{
+    padding-top: 300px;
+    padding-right: 300px;
+    font-size: 30px;
+}
+.cover{
+    background-color: white;
+    width: 1440px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.one{
+    height: 87px;
+    border-bottom: 2px dotted #777;
+    width: 70px;
+    font-size: 4px;
+    text-align: center;
+    border-right: 2px dotted #777;
+    color: white;
+}
+.second{
+    height: 100vh;
+    border-bottom: 2px dotted #777;
+    width: 70px;
+    font-size: 4px;
+    text-align: center;
+    border-right: 2px dotted #777;  
+    color: #777;
+}
+.two{
+    height: 87px;
+    border-bottom: 2px dotted #777;
+    width: 70px;
+    font-size: 4px;
+    text-align: center;
+    border-left: 2px dotted #777; 
+    color: white;
+}
+.secondtwo{
+    height: 100vh;
+    border-bottom: 2px dotted #777;
+    width: 70px;
+    font-size: 4px;
+    text-align: center;
+    border-left: 2px dotted #777;
+    color: white;  
+} 
+}
