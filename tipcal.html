@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <title> Tip calculator</title>
+    <link rel="stylesheet" href="../assets/stylesheet/tipcal.css">
+</head>
+<body>
+    <div class="container">
+        <div class="head">Tip Calculator</div>
+
+
+        <div class="mid">
+            <div class="first">
+                            <p>Enter Total Bill</p>
+            <p> $<input type="number" placeholder="000" class="totalBill"></p>
+        </div>
+           <div class="second">
+            <p>choose your tip</p>
+            <p>
+                <select   id="" class="yourTip">
+<option  disabled selected value="0">Select from here</option>
+<option value="0.5--">50%</option>
+<option value="0.3">30%</option>
+<option value="0.15">15%</option>
+<option value=".1">10%</option>
+                </select>
+            </p>
+           </div>
+           <div class="third">
+           <p> spilt the bill into</p>
+           <p><input type="number" placeholder="input-number" class="spiltBill"></p>
+           <button class="calc">calculate</button>
+           
+           </div>
+        </div>
+        <div class="footer">
+            <p>Total Per Person</p>
+            <div id="tip">$ <span id="tipss">0.00</span></div>
+           </div>
+
+    </div>
+    <script src="../javascript/tip.js"></script>
+</body>
+</html>
